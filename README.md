@@ -16,7 +16,8 @@ pip install -r requirements.txt
 
 Replace `YOUR_API_KEY` and `YOUR_API_URL` in `demo.sh` and run:
 ```
-git clone 
+git clone https://github.com/ShiDaizi/ReMUD.git
+cd ./ReMUD
 bash demo.sh
 ```
 to see a result of the demo.
