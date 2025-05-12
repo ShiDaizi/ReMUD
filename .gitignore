@@ -1,4 +1,5 @@
 *.txt
 *.jsonl
+Paper0512.pdf
 
 !requirements.txt
