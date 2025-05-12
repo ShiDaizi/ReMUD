@@ -23,7 +23,7 @@ to see a result of the demo.
 
 ### 1. Conver PDF to JPG
 
-[pdf2jpg.py]() is a simple Python script that converts PDF files to JPG images. It can process all PDF files in a specified folder and save the converted JPG images to another folder.
+[pdf2jpg.py](./data/pdf2jpg.py) is a simple Python script that converts PDF files to JPG images. It can process all PDF files in a specified folder and save the converted JPG images to another folder.
 
 This script supports several command-line arguments to customize the conversion process:
 ```
@@ -35,7 +35,7 @@ This script supports several command-line arguments to customize the conversion 
 ### 2. Qwen2.5-VL-7B-Instruct bounding box
 You have to prepare a GPU to run `Qwen2.5-VL-7B-Instruct` locally.
 
-[QwenVLbbox.py]()  will generate the following output:
+[QwenVLbbox.py](./data/QwenVLbbox.py)  will generate the following output:
 - Processed Images: The original images with bounding boxes drawn around the detected ultrasound images will be saved in the `save_folder/{page_number} `directory.
 - Extracted Images: The individual ultrasound images cropped from the original images will be saved in the `save_folder/{page_number}` directory.
 - JSON Files: The bounding box information for each page will be saved in a JSON file named `page_{page_number}.json` in the `save_folder/{page_number}` directory.
@@ -55,7 +55,7 @@ The script accepts the following command line arguments:
 
 ### 3. VQA generation
 
-In the [VQA.py]() script, you need to set your OpenAI API key and URL. You can also set them through command-line arguments. Replace api_key and api_url with your actual values.
+In the [VQA.py](./data/VQA.py) script, you need to set your OpenAI API key and URL. You can also set them through command-line arguments. Replace api_key and api_url with your actual values.
 
 The script accepts the following command line arguments:
 ```
