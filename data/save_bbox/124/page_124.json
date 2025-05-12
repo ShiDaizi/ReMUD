@@ -1,0 +1,68 @@
+[
+    {
+        "bbox_2d": [
+            61,
+            167,
+            336,
+            368
+        ],
+        "label": "超声图像1",
+        "caption": "肾脏增大",
+        "images": "./save_bbox/124/page_1241.jpg"
+    },
+    {
+        "bbox_2d": [
+            383,
+            77,
+            659,
+            279
+        ],
+        "label": "超声图像2",
+        "caption": "左肾",
+        "images": "./save_bbox/124/page_1242.jpg"
+    },
+    {
+        "bbox_2d": [
+            61,
+            403,
+            336,
+            603
+        ],
+        "label": "超声图像3",
+        "caption": "肾脏缺失",
+        "images": "./save_bbox/124/page_1243.jpg"
+    },
+    {
+        "bbox_2d": [
+            383,
+            398,
+            659,
+            603
+        ],
+        "label": "超声图像4",
+        "caption": "肾脏缺失",
+        "images": "./save_bbox/124/page_1244.jpg"
+    },
+    {
+        "bbox_2d": [
+            61,
+            710,
+            336,
+            912
+        ],
+        "label": "超声图像5",
+        "caption": "肾脏缩小",
+        "images": "./save_bbox/124/page_1245.jpg"
+    },
+    {
+        "bbox_2d": [
+            383,
+            641,
+            659,
+            843
+        ],
+        "label": "超声图像6",
+        "caption": "左肾",
+        "images": "./save_bbox/124/page_1246.jpg"
+    }
+]

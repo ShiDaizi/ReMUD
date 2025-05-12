@@ -1,0 +1,24 @@
+[
+    {
+        "bbox_2d": [
+            76,
+            102,
+            353,
+            304
+        ],
+        "label": "超声图像1",
+        "caption": "AO: 腹主动脉；LRA: 左肾动脉；RRA: 右肾动脉",
+        "images": "./save_bbox/123/page_1231.jpg"
+    },
+    {
+        "bbox_2d": [
+            403,
+            102,
+            678,
+            304
+        ],
+        "label": "超声图像2",
+        "caption": "LK: 左肾；LRV: 左肾静脉",
+        "images": "./save_bbox/123/page_1232.jpg"
+    }
+]
