@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 ## Data Process
 
-![workflow](./imgs/data_process.png)
+![workflow](./imgs/flow.svg)
 
 Replace `YOUR_API_KEY` and `YOUR_API_URL` in `demo.sh` and run:
 ```
